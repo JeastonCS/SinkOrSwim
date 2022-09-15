@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		EE458E5828D2A3FB00703FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E5728D2A3FB00703FBD /* AppDelegate.swift */; };
 		EE458E5A28D2A3FB00703FBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E5928D2A3FB00703FBD /* SceneDelegate.swift */; };
-		EE458E5C28D2A3FB00703FBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E5B28D2A3FB00703FBD /* ViewController.swift */; };
+		EE458E5C28D2A3FB00703FBD /* ScrollImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E5B28D2A3FB00703FBD /* ScrollImageViewController.swift */; };
 		EE458E5F28D2A3FB00703FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE458E5D28D2A3FB00703FBD /* Main.storyboard */; };
 		EE458E6128D2A3FC00703FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE458E6028D2A3FC00703FBD /* Assets.xcassets */; };
-		EE458E6428D2A3FC00703FBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE458E6228D2A3FC00703FBD /* LaunchScreen.storyboard */; };
+		EE458E6E28D2A47100703FBD /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE458E6D28D2A47100703FBD /* ImageModel.m */; };
+		EE458E7428D2AA6A00703FBD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7328D2AA6A00703FBD /* TableViewController.swift */; };
+		EE458E7628D2ADC400703FBD /* ROIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7528D2ADC400703FBD /* ROIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE458E5428D2A3FB00703FBD /* SinkOrSwim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinkOrSwim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE458E5728D2A3FB00703FBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE458E5928D2A3FB00703FBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE458E5B28D2A3FB00703FBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE458E5B28D2A3FB00703FBD /* ScrollImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImageViewController.swift; sourceTree = "<group>"; };
 		EE458E5E28D2A3FB00703FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE458E6028D2A3FC00703FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE458E6328D2A3FC00703FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE458E6528D2A3FC00703FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE458E6B28D2A47100703FBD /* SinkOrSwim-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinkOrSwim-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE458E6C28D2A47100703FBD /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		EE458E6D28D2A47100703FBD /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		EE458E7328D2AA6A00703FBD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EE458E7528D2ADC400703FBD /* ROIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,17 @@
 		EE458E5628D2A3FB00703FBD /* SinkOrSwim */ = {
 			isa = PBXGroup;
 			children = (
+				EE458E5D28D2A3FB00703FBD /* Main.storyboard */,
 				EE458E5728D2A3FB00703FBD /* AppDelegate.swift */,
 				EE458E5928D2A3FB00703FBD /* SceneDelegate.swift */,
-				EE458E5B28D2A3FB00703FBD /* ViewController.swift */,
-				EE458E5D28D2A3FB00703FBD /* Main.storyboard */,
+				EE458E7328D2AA6A00703FBD /* TableViewController.swift */,
+				EE458E5B28D2A3FB00703FBD /* ScrollImageViewController.swift */,
+				EE458E7528D2ADC400703FBD /* ROIViewController.swift */,
 				EE458E6028D2A3FC00703FBD /* Assets.xcassets */,
-				EE458E6228D2A3FC00703FBD /* LaunchScreen.storyboard */,
 				EE458E6528D2A3FC00703FBD /* Info.plist */,
+				EE458E6C28D2A47100703FBD /* ImageModel.h */,
+				EE458E6D28D2A47100703FBD /* ImageModel.m */,
+				EE458E6B28D2A47100703FBD /* SinkOrSwim-Bridging-Header.h */,
 			);
 			path = SinkOrSwim;
 			sourceTree = "<group>";
@@ -99,6 +109,7 @@
 				TargetAttributes = {
 					EE458E5328D2A3FB00703FBD = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,7 +136,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE458E6428D2A3FC00703FBD /* LaunchScreen.storyboard in Resources */,
 				EE458E6128D2A3FC00703FBD /* Assets.xcassets in Resources */,
 				EE458E5F28D2A3FB00703FBD /* Main.storyboard in Resources */,
 			);
@@ -138,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE458E5C28D2A3FB00703FBD /* ViewController.swift in Sources */,
+				EE458E5C28D2A3FB00703FBD /* ScrollImageViewController.swift in Sources */,
 				EE458E5828D2A3FB00703FBD /* AppDelegate.swift in Sources */,
 				EE458E5A28D2A3FB00703FBD /* SceneDelegate.swift in Sources */,
+				EE458E7428D2AA6A00703FBD /* TableViewController.swift in Sources */,
+				EE458E6E28D2A47100703FBD /* ImageModel.m in Sources */,
+				EE458E7628D2ADC400703FBD /* ROIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +166,6 @@
 				EE458E5E28D2A3FB00703FBD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE458E6228D2A3FC00703FBD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE458E6328D2A3FC00703FBD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F69WJ27LN4;
@@ -303,6 +309,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MSL.SinkOrSwim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SinkOrSwim/SinkOrSwim-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F69WJ27LN4;
@@ -331,6 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MSL.SinkOrSwim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SinkOrSwim/SinkOrSwim-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
