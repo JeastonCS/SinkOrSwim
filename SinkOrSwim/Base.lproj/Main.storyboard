@@ -53,6 +53,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="mEa-Wb-CNg" kind="show" id="JUN-Sk-GV4"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -124,6 +127,7 @@
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
+                    <navigationItem key="navigationItem" id="E8s-BA-Jd5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PjA-S3-0tD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
