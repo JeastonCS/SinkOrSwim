@@ -28,10 +28,12 @@
 -(NSDictionary*) images{
     if(!_images)
         _images = @{
-            @"Day":[UIImage imageNamed:@"Day"],
-            @"Week":[UIImage imageNamed:@"Week"],
-            @"Month":[UIImage imageNamed:@"Month"],
-            @"Year":[UIImage imageNamed:@"Year"],
+            @"Stock Price, Day":[UIImage imageNamed:@"Day"],
+            @"Stock Price, Week":[UIImage imageNamed:@"Week"],
+            @"Stock Price, Month":[UIImage imageNamed:@"Month"],
+            @"Stock Price, Year":[UIImage imageNamed:@"Year"]
+            
+            
         };
     
     return _images;

@@ -49,7 +49,7 @@ class TableViewController: UITableViewController {
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "CollectionCell", for: indexPath)
-            cell.textLabel!.text = "Historical Information"
+            cell.textLabel!.text = "Stock Price Summary"
             return cell
         }
         
