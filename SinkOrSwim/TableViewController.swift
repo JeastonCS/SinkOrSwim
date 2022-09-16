@@ -18,7 +18,7 @@ class TableViewController: UITableViewController {
     }()
 
     // MARK: - Table view data source
-    override func numberOfSections(in tableView: UITableView) -> Int { return 2 }
+    override func numberOfSections(in tableView: UITableView) -> Int { return 4 }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         if section == 0 {
@@ -42,9 +42,14 @@ class TableViewController: UITableViewController {
             
             cell.textLabel?.text = "ROI"
             return cell
+        } else if indexPath.section == 2 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "InfoCell", for:indexPath)
+            
+            cell.textLabel?.text = "Basic Information"
+            return cell
         } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "ImageNameCell", for: indexPath)
-            cell.textLabel!.text = "Temp"
+            let cell = tableView.dequeueReusableCell(withIdentifier: "CollectionCell", for: indexPath)
+            cell.textLabel!.text = "Historical Information"
             return cell
         }
         

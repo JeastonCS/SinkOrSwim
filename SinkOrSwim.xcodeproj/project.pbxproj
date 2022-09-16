@@ -15,6 +15,9 @@
 		EE458E6E28D2A47100703FBD /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE458E6D28D2A47100703FBD /* ImageModel.m */; };
 		EE458E7428D2AA6A00703FBD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7328D2AA6A00703FBD /* TableViewController.swift */; };
 		EE458E7628D2ADC400703FBD /* ROIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7528D2ADC400703FBD /* ROIViewController.swift */; };
+		EE458E7828D4B4D500703FBD /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7728D4B4D500703FBD /* BasicInfoViewController.swift */; };
+		EE458E7C28D4BC0900703FBD /* HistoricalDataCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7B28D4BC0900703FBD /* HistoricalDataCVC.swift */; };
+		EE458E7E28D4CA8700703FBD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE458E7D28D4CA8700703FBD /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		EE458E6D28D2A47100703FBD /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		EE458E7328D2AA6A00703FBD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EE458E7528D2ADC400703FBD /* ROIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROIViewController.swift; sourceTree = "<group>"; };
+		EE458E7728D4B4D500703FBD /* BasicInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
+		EE458E7B28D4BC0900703FBD /* HistoricalDataCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataCVC.swift; sourceTree = "<group>"; };
+		EE458E7D28D4CA8700703FBD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 				EE458E7328D2AA6A00703FBD /* TableViewController.swift */,
 				EE458E5B28D2A3FB00703FBD /* ScrollImageViewController.swift */,
 				EE458E7528D2ADC400703FBD /* ROIViewController.swift */,
+				EE458E7728D4B4D500703FBD /* BasicInfoViewController.swift */,
+				EE458E7B28D4BC0900703FBD /* HistoricalDataCVC.swift */,
+				EE458E7D28D4CA8700703FBD /* CollectionViewCell.swift */,
 				EE458E6028D2A3FC00703FBD /* Assets.xcassets */,
 				EE458E6528D2A3FC00703FBD /* Info.plist */,
 				EE458E6C28D2A47100703FBD /* ImageModel.h */,
@@ -150,9 +159,12 @@
 			files = (
 				EE458E5C28D2A3FB00703FBD /* ScrollImageViewController.swift in Sources */,
 				EE458E5828D2A3FB00703FBD /* AppDelegate.swift in Sources */,
+				EE458E7E28D4CA8700703FBD /* CollectionViewCell.swift in Sources */,
+				EE458E7C28D4BC0900703FBD /* HistoricalDataCVC.swift in Sources */,
 				EE458E5A28D2A3FB00703FBD /* SceneDelegate.swift in Sources */,
 				EE458E7428D2AA6A00703FBD /* TableViewController.swift in Sources */,
 				EE458E6E28D2A47100703FBD /* ImageModel.m in Sources */,
+				EE458E7828D4B4D500703FBD /* BasicInfoViewController.swift in Sources */,
 				EE458E7628D2ADC400703FBD /* ROIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
